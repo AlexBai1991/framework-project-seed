@@ -40,7 +40,7 @@ define([
 					this.props.users.add({
 						id: 3,
 						name: 'fantuan',
-						avatar: '/img/jenny.jpg'
+						avatar: './img/jenny.jpg'
 					});
 				},
 				render: function () {

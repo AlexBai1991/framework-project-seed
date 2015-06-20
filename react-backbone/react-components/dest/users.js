@@ -39,8 +39,8 @@ define([
 				clickHandler: function () {
 					this.props.users.add({
 						id: 3,
-						name: 'fantuan',
-						avatar: '/img/jenny.jpg'
+						name: '小白',
+						avatar: './img/jenny.jpg'
 					});
 				},
 				render: function () {

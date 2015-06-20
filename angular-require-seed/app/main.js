@@ -1,5 +1,5 @@
 require.config({
-	baseUrl: '/',
+	baseUrl: './',
 	paths: {
 		angular: 'vendor/angular/angular',
 		ngAnimate: 'vendor/angular/angular-animate',

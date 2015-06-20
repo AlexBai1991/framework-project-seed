@@ -21,12 +21,12 @@ define([
 			},
 			initialize: function () {
 				this.collection = new collections.users([
-					{id: 1, name: 'gaoyuan', avatar: '/img/elliot.jpg'},
-					{id: 2, name: 'wufang', avatar: '/img/stevie.jpg'}
+					{id: 1, name: 'gaoyuan', avatar: './img/elliot.jpg'},
+					{id: 2, name: 'wufang', avatar: './img/stevie.jpg'}
 				]);
 				this.render();
 			}
 		});
-
+		console.log(new main());
 		return main;
 	});

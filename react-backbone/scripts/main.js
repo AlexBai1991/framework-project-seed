@@ -1,5 +1,5 @@
 require.config({
-	baseUrl: "/",
+	baseUrl: "./",
 	paths: {
 		jquery: 'vender/jquery/jquery-2.1.1.min',
 		underscore: 'vender/lodash/lodash',
